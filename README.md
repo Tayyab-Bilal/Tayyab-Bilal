@@ -8,7 +8,7 @@ Today I build the AI service behind a multi-tenant AI workspace platform at a Lo
 
 ## ⭐ Featured work
 
-Clean-room re-implementations of production systems I designed and built. Each repo has tests, a runnable demo and docs. No employer code; all names and data are fictional.
+Clean-room implementations of production systems and designs I created. Each repo has tests, a runnable demo and docs. No employer code; all names and data are fictional.
 
 | Repo | What it shows |
 |---|---|
@@ -16,6 +16,7 @@ Clean-room re-implementations of production systems I designed and built. Each r
 | [**autonomous-agent**](https://github.com/Tayyab-Bilal/autonomous-agent) | A planner/executor that runs LLM plans unattended on a schedule or event: deterministic plan assembly, crash recovery, loop guard, honest outcomes |
 | [**agent-kit**](https://github.com/Tayyab-Bilal/agent-kit) | A small runtime for safe multi-step specialist agents: YAML agent cards, read-only SQL result handles, guarded writes, code-checked consent |
 | [**grep-first-agent**](https://github.com/Tayyab-Bilal/grep-first-agent) | Agentic retrieval with string matching instead of vector RAG: 17 tools in three layers, stampede-safe cache, strict JSON pointer contract |
+| [**rag-quality-monitor**](https://github.com/Tayyab-Bilal/rag-quality-monitor) | My RAG evaluation design, implemented: four dimensions (chunk retrieval, answer quality, regression, golden set) and the Three-Hook Model of always-on retrieval heuristics, sampled LLM judging and an offline CI gate |
 | [**llm-cost-meter**](https://github.com/Tayyab-Bilal/llm-cost-meter) | One cost and token tracker for every AI call: integer micro-credits, Redis Lua balances, billing while streaming, a build-time guard against unbilled calls |
 | [**model-price-registry**](https://github.com/Tayyab-Bilal/model-price-registry) | Audited LLM prices: one write path, provider sync that only files drafts, a human approval queue, explicit billing units |
 | [**workflow-doctor**](https://github.com/Tayyab-Bilal/workflow-doctor) | Build automation workflows from plain language and diagnose why they fail: deterministic assembly, 15 checks, run forensics, drift |
